@@ -1,0 +1,27 @@
+.entete { background-color:#256D7B;
+	height: 150px;
+	width: 90%;
+	margin-right: 5%;
+	color:white;}
+
+h3 {
+	color:#256D7B;
+}
+
+header { height: 150px;
+	width: auto;
+}
+
+body {margin-left: 5%;}
+
+main { float: left;"
+	height: auto;
+	width:50%;
+	line-height: 1px;
+}
+aside { float: left;"
+	height: auto;
+	width: 20%;
+	margin-right: 5%;
+}
+p{font-size: 12px;}
