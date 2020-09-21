@@ -9,9 +9,12 @@
 }
 
 #liste {
-	line-height: 15px;
-	font-size: 12px;
-	line-height: 14px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+#pFooter{
+	float: right;
 }
 
 h2 {
@@ -34,7 +37,27 @@ h2 {
 }
 p{font-size: 16px;}
 
-.footer { background-color:#256D7B;
-	margin-right: 5%;
+.footer { float: left;
+	background-color:#256D7B;
+	width: 90%;
+	height: 50px;
 	margin-left: 5%;
+}
+
+body {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
