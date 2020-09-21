@@ -2,26 +2,39 @@
 	height: 150px;
 	width: 90%;
 	margin-right: 5%;
-	color:white;}
+	margin-left: 5%;
+	color:white;
+	line-height: 8px;
+	border: double;
+}
 
-h3 {
+#liste {
+	line-height: 15px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+h2 {
 	color:#256D7B;
 }
 
-header { height: 150px;
-	width: auto;
+.leftSide { margin-left: 5%;
+	float: left;
+	height: auto;
+	width: 50%;
+	line-height: 4px;
 }
 
-body {margin-left: 5%;}
-
-main { float: left;"
-	height: auto;
-	width:50%;
-	line-height: 1px;
-}
-aside { float: left;"
-	height: auto;
-	width: 20%;
+.rightSide {  
+	width: 30%;
+	float: left;
+	max-width: 30%;
+	line-height: 4px;
 	margin-right: 5%;
 }
-p{font-size: 12px;}
+p{font-size: 16px;}
+
+.footer { background-color:#256D7B;
+	margin-right: 5%;
+	margin-left: 5%;
+}
